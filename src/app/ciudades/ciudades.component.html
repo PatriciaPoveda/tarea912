@@ -1,0 +1,9 @@
+<h2>Listado de Ciudades</h2>
+<button (click)="pintarCiudad()">Ciudades</button>
+<ul>
+  <li *ngFor="let ciudad of ciudades">{{ ciudad }}</li>
+</ul>
+<button (click)="borrarCiudades()">Borrar</button>
+<ul>
+  <li *ngFor="let ciudad of ciudadesBorradas">{{ ciudad }}</li>
+</ul>
